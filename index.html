@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome bootstrap cdn link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Work Experience</a></li>
+            <li><a href="#work" onclick="toggleMenu();">My Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textIntro">
+            <h2>Hello, This is<br><span>Vitika.</span></h2>
+            <h3>A Passionate FrontEnd Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                
+                <h3>A dedicated Programmer Analyst, knowledgeable in designing/developing projects.</h3> 
+                <p>I have 2 years of Front End Web Development experience at Cognizant Technology Solution - Bangalore. 
+                I have completed my training in responsive designing and developing web application. My project was based on React JS.<br/><br/>
+                1.	I have worked in the Wal-Mart Mexico project under ATG team for about 5 months and learnt the tasks and incidents proactively. <br/><br/>
+                2.	Currently, working in the Titan - T & M project with UI team members . Here, I have contributed in 8 brands that belongs to TATA. (i.e. Titan, Tanishq, Taneira, Fastrack, Mia, Skinn, Traq, Sonata)
+                </p>
+            </div>
+            <div class="w50">
+                <img src="images/product1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Work Experience</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus lectus.</p> -->
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/icon1.png" class="center-img"><br/>
+                <h2>AngularJS UI Developer</h2>
+                <h3>Titan - T & M Project</h3><br/>
+                <p><ul>
+                    <li>I got an opportunity to work with UI and other team members on the frontend part and I learnt to resolve the assigned tasks as per the client/business requirement.</li>
+                    <li>Resolved UAT/production UI defects to improve performance.</li>
+                    <li>Worked with the whole team to develop, build, and test the changes.</li>
+                    <li>Supported the Prod-Stg and Production deployment with the whole team.</li>
+                    <li>Attended SCRUM call with the Titan Team for updating the status of the tasks/incidents on daily basis.</li>
+                    <li>Experience in working with e-commerce system and functionalities.</li>
+                    </ul> 
+                </p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon2.png" class="center-img"><br/>
+                <h2>Developer</h2>
+                <h3>Wal-Mart Mexico eCommerce Project</h3><br/>
+                <p><ul>
+                    <li>Monitored the Groceries (GR) Feeds (i.e., catalog, price and inventory feeds)</li>
+                    <li>Learnt about different Bug Ids and order states like Sent-to-fulfillment, Order-generate-error, Incomplete transaction.</li>
+                    <li>Created Weekly Status Report (WSR) for every incident using pivot table and charts.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Projects</h2>
+            <p>Worked on few Personal Project using HTML5, CSS, JavaScript, Bootstrap, ReactJS & NodeJS .</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <!-- <img src="images/product1.jpg"> -->
+                <h3>1. Amazon Clone using ReactJS</h3><br/>
+                <p><ul>
+                    <li>The project is on Amazon clone website with E-Commerce functionality using HTML, CSS, JavaScript, React and Firebase Tools.</li>
+                    <li>This web application includes: React Context API, React Router, useStateValue() from StateProvider, Reducer, Spread Operator, useEffect(), useHistory() from React-router-dom, preventDefault(), Material UI, CSS Flex, Firebase for Authentication and Hosting to deploy the project.</li>
+                    <li>It contains Login Page, Product details page, Cart, Checkout and Payment Page.</li>
+                    <a href="https://v04-react.web.app/" target="_blank">Visit: Amazon Clone Website!</a>
+                    <!-- <li>URL for reference: https://v04-react.web.app/</li> -->
+                </ul>
+                </p>
+            </div>
+            <div class="workBx">
+                
+                <h3>2. Todo-Task List App using JS</h3><br/>
+                <p><ul>
+                    <li>The project is on Todo list that is created using HTML, CSS, and JavaScript.</li>
+                    <li>The lists are generally used to maintain day to day tasks that we have to do.</li>
+                    <li>JS file contains: querySelector, createElement, addEventListener, appendChild, classList, setAttribute, removeChild.</li>
+                    <li>We can add, create, edit any task any time and delete a task which is completed.</li>
+                    <a href="https://vitika04.github.io/Todo-List-/" target="_blank">Visit: Todo List Page!</a>
+                    <!-- <li>URL for reference: https://github.com/Vitika04/Todo-List- </li> -->
+                </ul>
+                </p>
+            </div>
+            <div class="workBx" id="workBx3">
+                <!-- <img src="images/product2.jpg"> -->
+                <h3>3. Simple Titan Landing Page using HTML/CSS</h3><br/>
+                <p><ul>
+                    <li>A simple structure of web page build using HTML and CSS.</li>
+                    <li>The Landing Page main goal is to drive the visitor action. The page is for the visitors to get more information about the product or services that we are offering.</li>
+                    <!-- <li>URL for reference: https://vitika04.github.io/Landing-Page/landingPage.html </li> -->
+                    <a href="https://vitika04.github.io/Landing-Page/landingPage.html" target="_blank">Visit: Titan Sample Page!</a>
+                </ul>
+                </p>
+            </div>
+             <div class="workBx"> 
+                <!-- <img src="images/product2.jpg"> -->
+                <h3>4. My Restaurant Website using JavaScript</h3><br/>
+                <p><ul>
+                    <li>The project is created using HTML, CSS and JavaScript.</li>
+                    <!-- <li>URL for reference: https://vitika04.github.io/Restaurant-Website/ </li> -->
+                    <a href="https://vitika04.github.io/Restaurant-Website/" target="_blank">Visit: Vitika's Restaurant Website!</a>
+                </ul></p>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contacts</h2>
+            <p></p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                       <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                       </div>
+                       <div class="text">
+                          <h3>Address</h3>
+                          <p>Kahalgaon,<br>Bhagalpur, Bihar,<br>813203</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                       <div class="icon">
+                        <i class="fa fa-phone"></i>
+                       </div>
+                       <div class="text">
+                          <h3>Phone</h3>
+                          <p>9091803284</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                       <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                       </div>
+                       <div class="text">
+                          <h3>Email</h3>
+                          <p>vitikasingh01@gmail.com</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="reference">
+        <p>Reference: Online Tutorials.</p>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', function() {
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky', window.scrollY > 0);
+      });
+
+      function toggleMenu() {
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('.menu');
+          menuToggle.classList.toggle('active');
+          menu.classList.toggle('active');
+      }
+    </script>
+
+
+</body>
+</html>
