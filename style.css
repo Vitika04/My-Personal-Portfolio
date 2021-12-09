@@ -354,7 +354,7 @@ section#work{
 
 .contactInfoBx .box .text h3 {
      font-weight: 500;
-     color: grey;
+     /* color: grey; */
      margin-bottom: 0;
 }
 
